@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+.mg-t-20px {
+    margin-top: 20px !important;
+}
+
+.txt-cl-333 {
+    color: #333 !important;
+}
+
+.mg-tb-30px {
+    margin: 30px 0 !important;
+}
+
+.none-deco {
+    text-decoration: none !important;
+}
+
+.black-text {
+    color: #000 !important;
+}
+
+.align-text {
+    text-align: center !important;
+}
+
+/* Login */
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.login-container .logo-login {
+    padding: 19px 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: url("/assets/img/logo_fpt.png") no-repeat center / cover;
+}
+
+.login-container .login-left {
+    flex: 1;
+    padding: 65px;
+}
+
+.login-container .login-form-title {
+    color: #333;
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+
+.login-container .form-input {
+    outline: none;
+    border: none;
+    padding: 0 7px 0 10px;
+    font-size: 16px;
+    height: 55px;
+    flex: 1;
+}
+
+.login-left .wrap-login {
+    width: 100%;
+}
+
+.login-left .wrap-input {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc; 
+}
+
+.login-left .label-input {
+    font-size: 15px;
+    color: #333;
+    padding-left: 7px;
+}
+
+.login-left .login-btn {
+    outline: none;
+    background: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.login-left .login-btn:hover {
+    color: #fff;
+    background-color: #ccc;
+}
+
+.login-left .login-by-social i:hover,
+.login-left .signup-by-default .signup-btn:hover {
+    color: #ccc;
+}
+
+.login-left .signup-by-default .signup-btn {
+    color: #333;
+    line-height: 1.5;
+}
+
+.login-left .form-item {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.login-left .fg-pw {
+    margin-top: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.login-container .login-right {
+    flex: 2.5;
+}
+
+.slide-img {
+    display: none;
+}
+
+.login-right .slide-img:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    background: url("/assets/img/login-slider1.jpeg") no-repeat center / cover;
+}
+
+.login-right .slide-img:nth-child(2) {
+    background: url("/assets/img/login-slider2.jpeg") no-repeat center / cover;
+}
+
+.login-right .slide-img:nth-child(3) {
+    background: url("/assets/img/login-slider3.jpeg") no-repeat center / cover;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+ }
+   
+ @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+ }
+   
+ @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+ }
