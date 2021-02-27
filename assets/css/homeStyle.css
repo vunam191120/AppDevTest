@@ -13,7 +13,7 @@
 }
 
 .fs-30px {
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 .mg-tb-30px {
@@ -73,14 +73,14 @@
     width: 60px;
     height: 60px;
     display: inline-block;
-    background: url("/assets/img/logo_fpt.png") no-repeat center / contain;
+    background: url("../img/logo_fpt.png") no-repeat center / contain;
 }
 
 .avt-header {
     width: 60px;
     height: 60px;
     display: inline-block;
-    background: url("/assets/img/avt.jpg") no-repeat center / contain;
+    background: url("../img/avt.jpg") no-repeat center / contain;
 }
 
 .nav {
@@ -186,19 +186,19 @@
 .slide-img:nth-child(1) {
     width: 100%;
     height: 100%;
-    background: url("/assets/img/slider1.png") no-repeat center / cover;
+    background: url("../img/slider1.png") no-repeat center / cover;
 }
 
 .slide-img:nth-child(2) {
     width: 100%;
     height: 100%;
-    background: url("/assets/img/slider2.jpg") no-repeat center / cover;
+    background: url("../img/slider2.jpg") no-repeat center / cover;
 }
 
 .slide-img:nth-child(3) {
     width: 100%;
     height: 100%;
-    background: url("/assets/img/slider3.jpg") no-repeat center / cover;
+    background: url("../img/slider3.jpg") no-repeat center / cover;
 }
 
 /* Fading animation */
@@ -371,7 +371,7 @@
     width: 150px;
     height: 100px;
     display: inline-block;
-    background: url("/assets/img/logo_fpt.png") no-repeat center / contain;
+    background: url("../img/logo_fpt.png") no-repeat center / contain;
 }
 
 /* Login */
