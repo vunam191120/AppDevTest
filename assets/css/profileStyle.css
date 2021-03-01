@@ -1,0 +1,151 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common */
+
+.fs-20px {
+    font-size: 20px !important;
+}
+
+.fw-nor {
+    font-weight: normal;
+}
+
+.mg-r-5px {
+    margin-right: 5px !important;
+}
+
+.bc-f9 {
+    background-color: red !important;
+}
+
+.txt-r {
+    text-align: center !important;
+}
+
+.txt-ct {
+    text-align: center;
+}
+
+/* Profile */
+
+.profile-container {
+    width: 1250px;
+    min-height: 80vh;
+    border: 1px solid #c3c3c3;
+    margin: auto;
+    display: flex;
+}
+
+.profile-container .pro-left {
+    width: 350px;
+    min-height: 500px;
+    float: left;
+}
+
+.profile-container .pro-right {
+    margin: 30px 0 30px 30px;
+    min-height: 300px;
+    min-width: 750px;
+    display: inline-block;
+}
+
+.pro-left .avt-user {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 30px auto 30px auto;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.pro-left input[type=file] {
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: auto;
+    outline: none;
+    display: block;
+}
+
+.pro-left .tb-status {
+    margin: 30px auto 20px auto;
+    width: 300px;
+}
+
+.pro-left .tb-status tr {
+    height: 30px;
+    display: flex;
+    border-top: 2px solid #ddd;
+}
+
+.pro-left .tb-status tr:nth-child(1) {
+    background-color: #f3f3f3;
+}
+
+.pro-left .tb-status tr:nth-child(3) {
+    background-color: #f3f3f3;
+}
+
+.pro-left .tb-status td {
+    padding: 7px 0 6px 10px;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+
+.pro-right .profile-title {
+
+}
+
+.pro-right .form-lb {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.pro-right .form-input {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}  
+
+.pro-right .form-txt {
+    margin-left: 50px;
+    width: 550px;
+    height: 38px;
+    outline: none;
+}
+
+.pro-right .form-lb-gender {
+    margin: 0 5px 0 50px;
+}
+
+.profile-container .btn-finish {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.profile-container .fn-btn-container {
+    background-color: #4faf67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    line-height: 1.6;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 50px auto 0 auto;
+}
