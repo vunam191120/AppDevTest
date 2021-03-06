@@ -11,11 +11,12 @@
 }
 
 .table-title {
-    background-color: rgb(68, 64, 64);
+    background-color: #6B90DA;
     padding: 30px;
     text-align: center;
     font-size: 30px;
     color: white;
+    margin-bottom: 30px;
 }
 
 .table-container {
